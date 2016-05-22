@@ -1,0 +1,63 @@
+.root{
+	-fx-background-color:transparent;
+}
+.button-grey{
+	-fx-font-size:20;
+	-fx-background-radius:0;
+	-fx-pref-width:70px;
+	-fx-pref-height:70px;
+	-fx-background-color:#d4d5d8;
+	-fx-text-fill:black;
+	-fx-border-width: 0.2px;
+	-fx-border-color: black;
+}
+.button-grey:hover{
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.button-orange{
+	-fx-font-size:30;
+	-fx-background-radius:0;
+	-fx-pref-width:70px;
+	-fx-pref-height:70px;
+	-fx-background-color:#f98210;
+	-fx-text-fill:aliceblue;
+	-fx-border-width: 0.2px;
+	-fx-border-color: black;
+}
+.button-orange:focused{
+	-fx-border-width: 2px;
+}
+.button-orange2{
+	-fx-font-size:30;
+	-fx-background-radius:0;
+	-fx-pref-width:70px;
+	-fx-pref-height:70px;
+	-fx-background-color:#f98210;
+	-fx-text-fill:aliceblue;
+	-fx-border-width: 0.2px;
+	-fx-border-color: black;
+}
+.button-orange:hover{
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.button-orange2:hover{
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.button-dark-grey{
+	-fx-font-size:20;
+	-fx-background-radius:0;
+	-fx-pref-width:70px;
+	-fx-pref-height:70px;
+	-fx-background-color:#c1c2c4;
+	-fx-text-fill:black;
+	-fx-border-width: 0.2px;
+	-fx-border-color: black;
+}
+.button-dark-grey:hover{
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.label{
+	-fx-font-size:40;
+	-fx-text-fill:aliceblue;
+	-fx-background-color:#202020;
+}
